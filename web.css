@@ -1,0 +1,281 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightblue;
+    align-items: center;
+    padding-left: 70%;
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header  .web{
+    margin: 20px;
+    width: 700px;
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+
+
+}
+header .web h2{
+    font-size: 35px;
+    color: blue;
+}
+
+
+header .web p{
+    font-size: 22px;
+
+}
+header .btn a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: orange;
+    padding: 10px 30px;
+
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(bgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+.about .words a{
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 10px 30px;
+    
+}
+.about .words{
+    width: 500px;
+}
+.about .words p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.about img{
+    width : 800px;
+}
+.more a{
+    background-color: orange;
+}
+
+
+.hello{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    background-color: lightblue;
+}
+.hello .work a{
+    text-decoration: none;
+    
+    color: white;
+    padding: 10px 30px;
+    
+}
+.hello .work{
+    width: 500px;
+}
+.hello .work p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.hello img{
+    width : 800px;
+}
+.client h1{
+    
+    font-size: 35px;
+    color: black;
+    
+    text-align: center;
+}
+.main{
+    
+    justify-content: space-around;
+    margin-bottom: 30px;
+    display: flex;
+    
+    
+    align-items: center;
+}
+.fix .fa-solid {
+    font-size: 80px;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+    margin-top: 10px;
+    
+
+}
+.fix{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 500px;
+    padding-left: 20%;
+}
+
+
+.view a{
+    background-color: blue;
+    align-items: center;
+     
+    
+}
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 5px;
+}
+.contact form input, .contact form textarea{
+    padding: 10px 30px;
+    
+    border: none;
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.contact form input[type='submit']{
+    background: blue;
+    color: white;
+}
+
+section .call h1{
+    font-size: 35px;
+    color: black;
+    
+    padding-left: 18%;
+    
+}
+section .call{
+    background-color: lightblue;
+}
+@media(max-width:900px){
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        right: 10px;
+        top: 40px;
+        gap:10px !important;
+        background: red;
+    }
+    
+    .fa-wrench{
+        position: absolute;
+        
+        right: 0;
+        font-size: 18px;
+    }
+    header .Center{
+        width:100% !important;
+        margin-top: 100px;
+    }
+    
+    .about{
+        flex-direction: column;
+    }
+    .about div{
+        width: 100% !important;
+    
+    }
+    .web{
+        flex-direction: column;
+    }
+    .web div{
+        width: 100% !important;
+    
+    }
+    .web img{
+        width: 100% !important;
+    }
+    .hello{
+        flex-direction: column;
+    }
+    .hello div{
+        width: 100% !important;
+    
+    }
+    .hello img{
+        width: 100% !important;
+    }
+    .contact{
+        flex-direction: column;
+    }
+    .call .contact{
+        width: 100% !important;
+    }
+    .call form {
+        width: 100% !important;
+        
+
+
+    }
+    iframe{
+        width:100% !important;
+    }
+}
+@media(max-width:950px){
+    .services-content{
+        flex-direction: column;
+    }
+    .service-content .fa-solid {
+        font-size: 40px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px; 
+        margin-top: 20px;
+    }
+    .fix .fa-solid {
+        font-size: 40px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px; 
+        margin-top: 20px;
+    }
+.service-content{
+    width: 100% !important;
+}
+}
+
+    

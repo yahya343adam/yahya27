@@ -1,0 +1,32 @@
+nav img{
+    width: 40px;
+    height: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    align-items: center;
+    
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fa-regular, .fa-solid{
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+}
+
+
+
